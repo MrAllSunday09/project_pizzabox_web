@@ -1,18 +1,25 @@
 ﻿using PizzaBox.Client.Models;
 using Microsoft.AspNetCore.Mvc;
+using PizzaBox.Storing;
 
-
-namespace _PizzaBox.Client.Controllers
+namespace PizzaBox.Client.Controllers
 {
   [Route("[controller]/[action]")]
   public class HomeController : Controller
   {
-    [HttpGet]
 
+    private readonly UnitOfWork _unitOfWork;
+
+    public HomeController(UnitOfWork unitOfWork)
+    {
+      _unitOfWork = unitOfWork;
+    }
+
+    [HttpGet]
     public IActionResult Index()
     {
-      ViewBag.Order = new OrderViewModel();
-      return View("index");
+      var view = View("index", new OrderViewModel(_unitOfWork));
+      return view;
     }
   }
 }

@@ -1,22 +1,22 @@
 using PizzaBox.Client.Models;
 using Microsoft.AspNetCore.Mvc;
 
-
 namespace PizzaBox.Client.Controllers
 {
   [Route("[controller]")]
-  public class OrderController : Controller
+  public class CustomerController : Controller
   {
     [HttpGet]
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public string Order(OrderViewModel order)
+
+    public string Customer(CustomerViewModel customer)
     {
       if (ModelState.IsValid)
       {
-        return order.SelectedCrust;
+        return customer.SelectedName;
       }
-      return "Bad Request";
+      return "Enter Name:";
     }
   }
 }
