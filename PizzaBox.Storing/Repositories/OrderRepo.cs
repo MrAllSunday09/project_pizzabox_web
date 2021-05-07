@@ -1,21 +1,29 @@
 using PizzaBox.Domain.Interfaces;
 using System.Collections.Generic;
 using PizzaBox.Domain.Models;
-using System.Linq;
+using System;
 
 
 namespace PizzaBox.Storing.Repositories
 {
   public class OrderRepo : IRepository<Order>
   {
-    public IEnumerable<Order> Create()
+    private readonly PizzaBoxContext _context;
+    
+    public OrderRepo(PizzaBoxContext context)
+    {
+      _context = context;
+    }
+
+    public IEnumerable<Order> Create(Func<Order, bool> filter)
     {
       throw new System.NotImplementedException();
     }
 
-    public bool Read()
+    public bool Read(Order entry)
     {
-      throw new System.NotImplementedException();
+      _context.Orders.Add(entry);
+      return true;
     }
 
     public Order Update()

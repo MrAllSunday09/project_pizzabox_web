@@ -1,6 +1,7 @@
 ﻿using PizzaBox.Client.Models;
 using Microsoft.AspNetCore.Mvc;
 using PizzaBox.Storing;
+using PizzaBox.Storing.Repositories;
 
 namespace PizzaBox.Client.Controllers
 {
@@ -18,8 +19,9 @@ namespace PizzaBox.Client.Controllers
     [HttpGet]
     public IActionResult Index()
     {
-      var view = View("index", new OrderViewModel(_unitOfWork));
-      return view;
+      var order = new OrderViewModel();
+      order.Construct(_unitOfWork);
+      return View("order", order);
     }
   }
 }

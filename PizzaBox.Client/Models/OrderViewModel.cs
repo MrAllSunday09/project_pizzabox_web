@@ -23,15 +23,12 @@ namespace PizzaBox.Client.Models
     [Required(ErrorMessage = "Select Toppings")]
     public List<string> SelectedToppings { get; set; }
 
-    public OrderViewModel()
-    {
 
-    }
-    public OrderViewModel(UnitOfWork unitOfWork)
+    public void Construct(UnitOfWork unitOfWork)
     {
-      Crusts = unitOfWork.Crusts.Create().ToList();
-      Sizes = unitOfWork.Sizes.Create().ToList();
-      Toppings = unitOfWork.Toppings.Create().ToList();
+      Crusts = unitOfWork.Crusts.Create(c => !string.IsNullOrWhiteSpace(c.Name)).ToList();
+      Sizes = unitOfWork.Sizes.Create(s => !string.IsNullOrWhiteSpace(s.Name)).ToList();
+      Toppings = unitOfWork.Toppings.Create(t => !string.IsNullOrWhiteSpace(t.Name)).ToList();
     }
 
     public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
