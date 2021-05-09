@@ -1,4 +1,20 @@
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 
 <h2>Thank you for your Order!!!</h2>
+<h4>Your order will be ready in 25 Minutes</h4>
+
 <a asp-controller="home">Home</a>
+
+@foreach (var item in ViewBag.Order.Pizzas)
+{
+  <p>Crust: @item.Crust</p>
+  <p>Size: @item.Size</p>
+  <p>Toppings:</p>
+
+  <ul>
+  @foreach (var thing in item.Toppings)
+    {
+      <li>@thing</li>
+    }
+  </ul>
+}

@@ -10,7 +10,6 @@ namespace PizzaBox.Storing.Repositories
   {
     private readonly PizzaBoxContext _context;
 
-    public delegate bool ToppingDelegate(Topping topping);
     public ToppingsRepo(PizzaBoxContext context)
     {
       _context = context;

@@ -20,7 +20,7 @@ namespace PizzaBox.Client.Controllers
     [HttpGet]
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public IActionResult Create(OrderViewModel order)
+    public IActionResult Order(OrderViewModel order)
     {
       if (ModelState.IsValid)
       {
@@ -41,7 +41,7 @@ namespace PizzaBox.Client.Controllers
 
         ViewBag.Order = newOrder;
 
-        return View("checkout");
+        return View("Checkout");
       }
 
       order.Construct(_unitOfWork);

@@ -5,7 +5,7 @@ using PizzaBox.Storing.Repositories;
 
 namespace PizzaBox.Client.Controllers
 {
-  [Route("[controller]/[action]")]
+  [Route("[controller]")]
   public class HomeController : Controller
   {
 

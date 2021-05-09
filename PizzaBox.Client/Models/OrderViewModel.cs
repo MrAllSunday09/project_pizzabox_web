@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using PizzaBox.Domain.Models;
 using PizzaBox.Storing;
+using PizzaBox.Storing.Repositories;
 
 namespace PizzaBox.Client.Models
 {
@@ -33,13 +34,9 @@ namespace PizzaBox.Client.Models
 
     public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
     {
-      if (SelectedCrust == SelectedSize)
-      {
-        yield return new ValidationResult("are you crazy!", new string[] { "SelectedCrust", "SelectedSize" });
-      }
       if (SelectedToppings.Count < 2 || SelectedToppings.Count > 5)
       {
-        yield return new ValidationResult("No good count");
+        yield return new ValidationResult("Please select at least 2, but no more than 5 toppings", new[] { "SelectedToppings" });
       }
     }
   }

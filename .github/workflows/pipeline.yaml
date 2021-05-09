@@ -1,0 +1,16 @@
+jobs: 
+  build:
+    runs-on: ubuntu-20.04
+      steps:
+        - uses: actions/checkout@latest
+        - run: dotnet build
+        
+        # test: XUnit + Coverlet
+        
+        # analyze: Sonarcloud
+
+        # package: docker image
+
+name: ci-pipeline
+
+on: push

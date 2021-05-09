@@ -9,7 +9,7 @@ namespace PizzaBox.Storing.Repositories
   public class OrderRepo : IRepository<Order>
   {
     private readonly PizzaBoxContext _context;
-    
+
     public OrderRepo(PizzaBoxContext context)
     {
       _context = context;
