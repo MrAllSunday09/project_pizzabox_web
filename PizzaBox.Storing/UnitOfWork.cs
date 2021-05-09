@@ -11,6 +11,8 @@ namespace PizzaBox.Storing
     public PizzaRepo Pizzas { get; set; }
     public SizeRepo Sizes { get; }
     public ToppingsRepo Toppings { get; }
+    public CustomerRepo Customers { get; set; }
+    public StoreRepo Stores { get; set; }
 
     public UnitOfWork(PizzaBoxContext context)
     {
@@ -21,6 +23,8 @@ namespace PizzaBox.Storing
       Pizzas = new PizzaRepo(_context);
       Sizes = new SizeRepo(_context);
       Toppings = new ToppingsRepo(_context);
+      Customers = new CustomerRepo(_context);
+      Stores = new StoreRepo(_context);
     }
 
     public void Save()

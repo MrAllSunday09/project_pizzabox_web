@@ -6,6 +6,8 @@ namespace PizzaBox.Storing
 {
   public class PizzaBoxContext : DbContext
   {
+    public DbSet<Customer> Customers { get; set; }
+    public DbSet<Store> Stores { get; set; }
     public DbSet<Crust> Crusts { get; set; }
 
     public DbSet<Size> Sizes { get; set; }
@@ -20,6 +22,8 @@ namespace PizzaBox.Storing
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
+      builder.Entity<Customer>().HasKey(e => e.EntityId);
+      builder.Entity<Store>().HasKey(e => e.EntityId);
       builder.Entity<Order>().HasKey(e => e.EntityId);
       builder.Entity<Pizza>().HasKey(e => e.EntityId);
       builder.Entity<Size>().HasKey(e => e.EntityId);
@@ -31,13 +35,23 @@ namespace PizzaBox.Storing
 
     private static void OnModelSeeding(ModelBuilder builder)
     {
+      builder.Entity<Store>().HasData(new[]
+      {
+        new Store() { EntityId = 1, Name = "Domino's" },
+        new Store() { EntityId = 2, Name = "Pizza Hut" },
+        new Store() { EntityId = 3, Name = "Marco's" },
+        new Store() { EntityId = 4, Name = "Mellow Mushroom" },
+        new Store() { EntityId = 5, Name = "Hungry Howie's" },
+        new Store() { EntityId = 6, Name = "Pizza Inn" }
+      });
+
       builder.Entity<Crust>().HasData(new[]
       {
         new Crust() { EntityId = 1, Name = "Thin" },
         new Crust() { EntityId = 2, Name = "Original" },
         new Crust() { EntityId = 3, Name = "Brooklyn" },
         new Crust() { EntityId = 4, Name = "Deep Dish" },
-        new Crust() { EntityId = 5, Name = "Stuffed" },
+        new Crust() { EntityId = 5, Name = "Stuffed" }
       });
 
       builder.Entity<Size>().HasData(new[]
