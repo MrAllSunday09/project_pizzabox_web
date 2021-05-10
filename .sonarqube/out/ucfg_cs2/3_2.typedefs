@@ -1,0 +1,4 @@
+™
++PizzaBox.Client.Controllers.OrderController#Microsoft.AspNetCore.Mvc.Controller'Microsoft.AspNetCore.Mvc.ControllerBaseobjectˆ
+,OrderController(PizzaBox.Storing.UnitOfWork)XPizzaBox.Client.Controllers.OrderController.OrderController(PizzaBox.Storing.UnitOfWork)ˆ
+,Order(PizzaBox.Client.Models.OrderViewModel)XPizzaBox.Client.Controllers.OrderController.Order(PizzaBox.Client.Models.OrderViewModel)

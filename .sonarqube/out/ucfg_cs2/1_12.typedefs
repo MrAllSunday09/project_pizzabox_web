@@ -1,0 +1,7 @@
+á
+*PizzaBox.Storing.Repositories.ToppingsRepoobject‹
+.ToppingsRepo(PizzaBox.Storing.PizzaBoxContext)YPizzaBox.Storing.Repositories.ToppingsRepo.ToppingsRepo(PizzaBox.Storing.PizzaBoxContext)¡
+9Create(System.Func<PizzaBox.Domain.Models.Topping, bool>)dPizzaBox.Storing.Repositories.ToppingsRepo.Create(System.Func<PizzaBox.Domain.Models.Topping, bool>)w
+$Read(PizzaBox.Domain.Models.Topping)OPizzaBox.Storing.Repositories.ToppingsRepo.Read(PizzaBox.Domain.Models.Topping)?
+Update()3PizzaBox.Storing.Repositories.ToppingsRepo.Update()?
+Delete()3PizzaBox.Storing.Repositories.ToppingsRepo.Delete()

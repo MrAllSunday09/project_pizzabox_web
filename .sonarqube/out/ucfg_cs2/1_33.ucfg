@@ -1,0 +1,18 @@
+
++PizzaBox.Storing.PizzaBoxContext.Orders.setW
+M/home/drayh/revature/project_pizzabox_web/PizzaBox.Storing/PizzaBoxContext.cs& ()"0*”
+0W
+M/home/drayh/revature/project_pizzabox_web/PizzaBox.Storing/PizzaBoxContext.cs* (*ù
+ö
+W
+M/home/drayh/revature/project_pizzabox_web/PizzaBox.Storing/PizzaBoxContext.cs& (*\"
+ PizzaBox.Storing.PizzaBoxContext"6
+Orders,Microsoft.EntityFrameworkCore.DbSet<TEntity>"__id*7
+5
+value,Microsoft.EntityFrameworkCore.DbSet<TEntity>"¹
+W
+M/home/drayh/revature/project_pizzabox_web/PizzaBox.Storing/PizzaBoxContext.cs& (*^*\"
+ PizzaBox.Storing.PizzaBoxContext"6
+Orders,Microsoft.EntityFrameworkCore.DbSet<TEntity>:5
+value,Microsoft.EntityFrameworkCore.DbSet<TEntity>B$"
+ PizzaBox.Storing.PizzaBoxContext
