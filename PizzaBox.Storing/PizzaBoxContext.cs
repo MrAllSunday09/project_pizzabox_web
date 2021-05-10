@@ -56,24 +56,25 @@ namespace PizzaBox.Storing
 
       builder.Entity<Size>().HasData(new[]
       {
-        new Size() { EntityId = 1, Name = "Small" },
-        new Size() { EntityId = 2, Name = "Medium" },
-        new Size() { EntityId = 3, Name = "Large"},
-        new Size() { EntityId = 4, Name = "X-Large"}
+        new Size() { EntityId = 1, Name = "Kid's", Price = 2.99 },
+        new Size() { EntityId = 2, Name = "Small", Price = 5.99 },
+        new Size() { EntityId = 3, Name = "Medium", Price = 7.99 },
+        new Size() { EntityId = 4, Name = "Large", Price = 10.99 },
+        new Size() { EntityId = 5, Name = "X-Large", Price = 15.99}
       });
 
       builder.Entity<Topping>().HasData(new[]
       {
-        new Topping() { EntityId = 1, Name = "Bacon" },
-        new Topping() { EntityId = 2, Name = "Sausage" },
-        new Topping() { EntityId = 3, Name = "Chicken" },
-        new Topping() { EntityId = 4, Name = "Spinach" },
-        new Topping() { EntityId = 5, Name = "Peppers" },
-        new Topping() { EntityId = 6, Name = "Pepperoni" },
-        new Topping() { EntityId = 7, Name = "Ham" },
-        new Topping() { EntityId = 8, Name = "Pineapple" },
-        new Topping() { EntityId = 9, Name = "Mushrooms" },
-        new Topping() { EntityId = 10, Name = "Onion" }
+        new Topping() { EntityId = 1, Name = "Bacon", Price = 1.5 },
+        new Topping() { EntityId = 2, Name = "Sausage", Price = 1.5  },
+        new Topping() { EntityId = 3, Name = "Chicken", Price = 1.5  },
+        new Topping() { EntityId = 4, Name = "Spinach", Price = 1.5  },
+        new Topping() { EntityId = 5, Name = "Peppers", Price = 1.5  },
+        new Topping() { EntityId = 6, Name = "Pepperoni", Price = 1.5  },
+        new Topping() { EntityId = 7, Name = "Ham", Price = 1.5  },
+        new Topping() { EntityId = 8, Name = "Pineapple", Price = 1.5  },
+        new Topping() { EntityId = 9, Name = "Mushrooms", Price = 1.5  },
+        new Topping() { EntityId = 10, Name = "Onion", Price = 1.5  }
       });
     }
   }

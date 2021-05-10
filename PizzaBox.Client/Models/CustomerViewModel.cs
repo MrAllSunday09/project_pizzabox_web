@@ -1,11 +1,15 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using PizzaBox.Domain.Models;
 using PizzaBox.Storing;
 
 namespace PizzaBox.Client.Models
 {
-  public class CustomerViewModel : IValidatableObject
+  public class CustomerViewModel
   {
+    public List<Customer> Customers { get; set; }
+
     [Required(ErrorMessage = "Please Enter Your Name")]
     [DataType(DataType.Text)]
     public string SelectedName { get; set; }
@@ -31,5 +35,4 @@ namespace PizzaBox.Client.Models
     //   yield return new ValidationResult("Please select at least 2, but no more than 5 toppings", new[] { "SelectedToppings" });
     // }
   }
-}
 }

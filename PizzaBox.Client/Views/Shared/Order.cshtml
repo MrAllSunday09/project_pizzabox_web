@@ -11,9 +11,8 @@
     @foreach (var item in Model.Crusts)
     {
       <div class="form-check">
-
-        <input class="form-check-input" type="radio" asp-for="SelectedCrust" value="@item">
         <label class="form-check-label" for="@item">@item</label>
+        <input class="form-check-input" type="radio" asp-for="SelectedCrust" value="@item">
       </div>
     }
   </fieldset>
@@ -24,8 +23,8 @@
     @foreach (var item in Model.Sizes)
     {
       <div class="form-check">
-        <input class="form-check-input" type="radio" asp-for="SelectedSize" value="@item">
         <label class="form-check-label" for="@item">@item</label>
+        <input class="form-check-input" type="radio" asp-for="SelectedSize" value="@item">
       </div>
     }
   </fieldset>
@@ -36,8 +35,8 @@
     @foreach (var item in Model.Toppings)
     {
       <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="@item" name="SelectedToppings" value="@item">
         <label class="form-check-label" for="@item">@item</label>
+        <input class="form-check-input" type="checkbox" id="@item" name="SelectedToppings" value="@item">
       </div>
     }
     <br>
