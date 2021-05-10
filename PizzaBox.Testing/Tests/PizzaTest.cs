@@ -1,5 +1,3 @@
-
-
 using PizzaBox.Domain.Models;
 using Xunit;
 
