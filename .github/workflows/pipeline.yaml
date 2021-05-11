@@ -1,15 +1,15 @@
 jobs: 
   build:
     runs-on: ubuntu-20.04
-      steps:
-        - uses: actions/checkout@v2
-        - run: dotnet build
+    steps:
+      - uses: actions/checkout@v2
+      - run: dotnet build
         
   test:
     runs-on: ubuntu-20.04
-      steps:
-        - uses: actions/checkout@v2
-        - run: dotnet test -p:CollectCoverage=true -p:CoverletOutputFormat=opencover -p:CoverletOutput='test_coverage' -l trx -o -r 'test_result'
+    steps:
+      - uses: actions/checkout@v2
+      - run: dotnet test -p:CollectCoverage=true -p:CoverletOutputFormat=opencover -p:CoverletOutput='test_coverage' -l trx -o -r 'test_result'
 
   analyze:
     needs:
@@ -19,12 +19,12 @@ jobs:
       SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     runs-on: ubuntu-20.04
-      steps:
-        - uses: actions/checkout@v2
-        - run: dotnet tool install -g dotnet-sonarscanner
-        - run: dotnet-sonarscanner begin -k:'MrAllSunday09_project_pizzabox_web' -o:'mrallsunday09' -d:sonar.login:$SONAR_TOKEN -d:sonar.host.url='https://sonarcloud.io'
-        - run: dotnet build
-        - run: dotnet-sonarscanner end -d:sonar.login=$SONAR_TOKEN
+    steps:
+      - uses: actions/checkout@v2
+      - run: dotnet tool install -g dotnet-sonarscanner
+      - run: dotnet-sonarscanner begin -k:'MrAllSunday09_project_pizzabox_web' -o:'mrallsunday09' -d:sonar.login:$SONAR_TOKEN -d:sonar.host.url='https://sonarcloud.io'
+      - run: dotnet build
+      - run: dotnet-sonarscanner end -d:sonar.login=$SONAR_TOKEN
 
   package:
     env:
