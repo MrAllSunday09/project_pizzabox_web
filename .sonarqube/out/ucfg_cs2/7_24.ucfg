@@ -1,0 +1,33 @@
+
+'_PizzaBox.Client.Program.Main(string[])N
+D/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Program.cs ("0*ð
+0N
+D/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Program.cs ("ì
+é
+N
+D/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Program.cs (#/
+%0)Microsoft.Extensions.Hosting.IHostBuilder"4_PizzaBox.Client.Program.CreateHostBuilder(string[])*"
+_PizzaBox.Client.Program*
+
+argsstring[]ìé
+N
+D/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Program.cs (+(
+%1"Microsoft.Extensions.Hosting.IHost"1Microsoft.Extensions.Hosting.IHostBuilder.Build()*1
+/
+%0)Microsoft.Extensions.Hosting.IHostBuilder2Build()·
+´
+N
+D/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Program.cs (1
+
+%2void"fMicrosoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(Microsoft.Extensions.Hosting.IHost)*B"@
+>Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions**
+(
+%1"Microsoft.Extensions.Hosting.IHost*
+1*º
+1N
+D/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Program.cs	 (	"e
+N
+D/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Program.cs (	
+implicit return:
+argsstring[]B"
+_PizzaBox.Client.Program

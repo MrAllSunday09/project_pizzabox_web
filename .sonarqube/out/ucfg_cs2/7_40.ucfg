@@ -1,0 +1,37 @@
+
+g_PizzaBox.Client.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)N
+D/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Startup.cs (!"0*®
+0N
+D/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Startup.cs $(Æ
+Ã
+N
+D/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Startup.cs ((:
+%04Microsoft.Extensions.DependencyInjection.IMvcBuilder"œMicrosoft.Extensions.DependencyInjection.MvcServiceCollectionExtensions.AddControllersWithViews(Microsoft.Extensions.DependencyInjection.IServiceCollection)*K"I
+GMicrosoft.Extensions.DependencyInjection.MvcServiceCollectionExtensions*I
+G
+services;Microsoft.Extensions.DependencyInjection.IServiceCollectionÑ
+Î
+N
+D/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Startup.cs (&A
+%1;Microsoft.Extensions.DependencyInjection.IServiceCollection"œMicrosoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddScoped<TService>(Microsoft.Extensions.DependencyInjection.IServiceCollection)*O"M
+KMicrosoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions*I
+G
+services;Microsoft.Extensions.DependencyInjection.IServiceCollection¶
+³
+N
+D/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Startup.cs $(A
+%2;Microsoft.Extensions.DependencyInjection.IServiceCollection"áMicrosoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.AddDbContext<TContext>(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<Microsoft.EntityFrameworkCore.DbContextOptionsBuilder>, Microsoft.Extensions.DependencyInjection.ServiceLifetime, Microsoft.Extensions.DependencyInjection.ServiceLifetime)*W"U
+SMicrosoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions*I
+G
+services;Microsoft.Extensions.DependencyInjection.IServiceCollection*
+""*
+""*
+""*
+1*º
+1N
+D/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Startup.cs% %("e
+N
+D/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Startup.cs% %(
+implicit return:G
+services;Microsoft.Extensions.DependencyInjection.IServiceCollectionB
+_PizzaBox.Client.Startup

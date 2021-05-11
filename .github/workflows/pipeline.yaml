@@ -6,10 +6,10 @@ jobs:
         - run: dotnet build
         
   test:
-    runs-on: Ubuntu-20.04
+    runs-on: ubuntu-20.04
       steps:
         - uses: actions/checkout@v2
-        - run: dotnet test -p:CollectCoverage=true -p:CoverletOutputFormat=opencover -p:CoverletOutput='test coverage' -l trx -o 'test result'
+        - run: dotnet test -p:CollectCoverage=true -p:CoverletOutputFormat=opencover -p:CoverletOutput='test_coverage' -l trx -o -r 'test_result'
 
   analyze:
     needs:
@@ -17,7 +17,8 @@ jobs:
       - test
     env:
       SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-    runs-on: Ubuntu-20.04
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    runs-on: ubuntu-20.04
       steps:
         - uses: actions/checkout@v2
         - run: dotnet tool install -g dotnet-sonarscanner
@@ -25,11 +26,37 @@ jobs:
         - run: dotnet build
         - run: dotnet-sonarscanner end -d:sonar.login=$SONAR_TOKEN
 
-        # test: XUnit + overlet
-        
-        # analyze: Sonarcloud
+  package:
+    env:
+      DOCKER_TOKEN: ${{ secrets.DOCKER_TOKEN }}
+      DOCKER_USER: ${{ secrets.DOCKER_USER }}
+    needs:
+      - analyze
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+      - run: docker image build -f Dockerfile -t pizzabox .
+      - run: docker image tag pizzabox akatsuki09/pizzabox
+      - run: echo $DOCKER_TOKEN | docker login -u $DOCKER_USER --password-stdin
+      - run: docker push akatsuki09/pizzabox
+      - run: docker logout
 
-        # package: docker image
+  login:
+    needs:
+      - package
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: azure/login@v1  
+
+  deploy:
+    needs:
+      - package
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: azure/webapps-deploy@v2
+        with:
+          app-name: pizzabox2021
+          image: akatsuki09/pizzabox
 
 name: ci-pipeline
 

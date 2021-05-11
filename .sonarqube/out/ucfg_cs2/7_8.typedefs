@@ -1,0 +1,20 @@
+‚
+
+%PizzaBox.Client.Models.OrderViewModelobjectv
+&Construct(PizzaBox.Storing.UnitOfWork)LPizzaBox.Client.Models.OrderViewModel.Construct(PizzaBox.Storing.UnitOfWork)¬
+AValidate(System.ComponentModel.DataAnnotations.ValidationContext)gPizzaBox.Client.Models.OrderViewModel.Validate(System.ComponentModel.DataAnnotations.ValidationContext)J
+OrderViewModel()6PizzaBox.Client.Models.OrderViewModel.OrderViewModel()>
+
+Crusts.get0PizzaBox.Client.Models.OrderViewModel.Crusts.get>
+
+Crusts.set0PizzaBox.Client.Models.OrderViewModel.Crusts.set<
+	Sizes.get/PizzaBox.Client.Models.OrderViewModel.Sizes.get<
+	Sizes.set/PizzaBox.Client.Models.OrderViewModel.Sizes.setB
+Toppings.get2PizzaBox.Client.Models.OrderViewModel.Toppings.getB
+Toppings.set2PizzaBox.Client.Models.OrderViewModel.Toppings.setL
+SelectedCrust.get7PizzaBox.Client.Models.OrderViewModel.SelectedCrust.getL
+SelectedCrust.set7PizzaBox.Client.Models.OrderViewModel.SelectedCrust.setJ
+SelectedSize.get6PizzaBox.Client.Models.OrderViewModel.SelectedSize.getJ
+SelectedSize.set6PizzaBox.Client.Models.OrderViewModel.SelectedSize.setR
+SelectedToppings.get:PizzaBox.Client.Models.OrderViewModel.SelectedToppings.getR
+SelectedToppings.set:PizzaBox.Client.Models.OrderViewModel.SelectedToppings.set
