@@ -22,7 +22,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: dotnet tool install -g dotnet-sonarscanner
-      - run: dotnet-sonarscanner begin -k:'MrAllSunday09_project_pizzabox_web' -o:'mrallsunday09' -d:sonar.login:$SONAR_TOKEN -d:sonar.host.url='https://sonarcloud.io'
+      - run: dotnet-sonarscanner begin -k:'MrAllSunday09_project_pizzabox_web' -o:'mrallsunday09' -d:sonar.login=$SONAR_TOKEN -d:sonar.host.url='https://sonarcloud.io'
       - run: dotnet build
       - run: dotnet-sonarscanner end -d:sonar.login=$SONAR_TOKEN
 
@@ -57,7 +57,7 @@ jobs:
   #   steps:
   #     - uses: azure/webapps-deploy@v2
   #       with:
-  #         app-name: pizzabox2021
+  #         app-name: danielspizzabox
   #         image: akatsuki09/pizzabox
 
 name: ci-pipeline
