@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
-      - run: dotnet test -p:CollectCoverage=true -p:CoverletOutputFormat=opencover -p:CoverletOutput='test_coverage' -l trx -o -r 'test_result'
+      - run: dotnet test -p:CollectCoverage=true -p:CoverletOutputFormat=opencover -p:CoverletOutput=./test_coverage/ -l trx -r ./test_result/
 
   analyze:
     needs:
@@ -41,22 +41,24 @@ jobs:
       - run: docker push akatsuki09/pizzabox
       - run: docker logout
 
-  login:
-    needs:
-      - package
-    runs-on: ubuntu-20.04
-    steps:
-      - uses: azure/login@v1  
+  # login:
+  #   needs:
+  #     - package
+  #   runs-on: ubuntu-20.04
+  #   steps:
+  #     - uses: azure/login@v1  
+  #         with:
+  #           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
-  deploy:
-    needs:
-      - package
-    runs-on: ubuntu-20.04
-    steps:
-      - uses: azure/webapps-deploy@v2
-        with:
-          app-name: pizzabox2021
-          image: akatsuki09/pizzabox
+  # deploy:
+  #   needs:
+  #     - package
+  #   runs-on: ubuntu-20.04
+  #   steps:
+  #     - uses: azure/webapps-deploy@v2
+  #       with:
+  #         app-name: pizzabox2021
+  #         image: akatsuki09/pizzabox
 
 name: ci-pipeline
 
