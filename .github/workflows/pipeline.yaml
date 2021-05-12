@@ -41,18 +41,18 @@ jobs:
       - run: docker push akatsuki09/pizzabox
       - run: docker logout
 
-  # deploy:
-  #   needs:
-  #     - package
-  #   runs-on: ubuntu-20.04
-  #   steps:
-  #       - uses: azure/login@v1  
-  #         with:
-  #           creds: ${{ secrets.AZURE_CREDENTIALS }}
-  #     - uses: azure/webapps-deploy@v2
-  #       with:
-  #         app-name: danielspizzabox
-  #         images: akatsuki09/pizzabox
+  deploy:
+    needs:
+      - package
+    runs-on: ubuntu-20.04
+    steps:
+        - uses: azure/login@v1  
+          with:
+            creds: ${{ secrets.AZURE_CREDENTIALS }}
+      - uses: azure/webapps-deploy@v2
+        with:
+          app-name: danielspizzabox
+          images: akatsuki09/pizzabox
 
 name: ci-pipeline
 
