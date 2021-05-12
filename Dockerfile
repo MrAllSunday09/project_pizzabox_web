@@ -9,4 +9,4 @@ FROM mcr.microsoft.com/dotnet/aspnet
 
 WORKDIR /run
 COPY --from=base /app/out .
-CMD [ "dotnet", "run", "PizzaBox.Client.dll" ]
+CMD [ "dotnet", "run", "-PizzaBox.Client.dll" ]

@@ -1,0 +1,26 @@
+Ñ
+PizzaBox.Storing.UnitOfWorkobjectx
+,UnitOfWork(PizzaBox.Storing.PizzaBoxContext)HPizzaBox.Storing.UnitOfWork.UnitOfWork(PizzaBox.Storing.PizzaBoxContext),
+Save()"PizzaBox.Storing.UnitOfWork.Save()4
+
+Crusts.get&PizzaBox.Storing.UnitOfWork.Crusts.get4
+
+Crusts.set&PizzaBox.Storing.UnitOfWork.Crusts.set4
+
+Orders.get&PizzaBox.Storing.UnitOfWork.Orders.get4
+
+Orders.set&PizzaBox.Storing.UnitOfWork.Orders.set4
+
+Pizzas.get&PizzaBox.Storing.UnitOfWork.Pizzas.get4
+
+Pizzas.set&PizzaBox.Storing.UnitOfWork.Pizzas.set2
+	Sizes.get%PizzaBox.Storing.UnitOfWork.Sizes.get2
+	Sizes.set%PizzaBox.Storing.UnitOfWork.Sizes.set8
+Toppings.get(PizzaBox.Storing.UnitOfWork.Toppings.get8
+Toppings.set(PizzaBox.Storing.UnitOfWork.Toppings.set:
+Customers.get)PizzaBox.Storing.UnitOfWork.Customers.get:
+Customers.set)PizzaBox.Storing.UnitOfWork.Customers.set4
+
+Stores.get&PizzaBox.Storing.UnitOfWork.Stores.get4
+
+Stores.set&PizzaBox.Storing.UnitOfWork.Stores.set

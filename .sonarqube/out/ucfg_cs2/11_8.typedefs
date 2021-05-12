@@ -1,0 +1,7 @@
+–
+PizzaBox.Domain.Models.Store PizzaBox.Domain.Abstracts.Entityobject5
+
+ToString()'PizzaBox.Domain.Models.Store.ToString()/
+Store()$PizzaBox.Domain.Models.Store.Store()1
+Name.get%PizzaBox.Domain.Models.Store.Name.get1
+Name.set%PizzaBox.Domain.Models.Store.Name.set

@@ -1,0 +1,93 @@
+
+¨_PizzaBox.Client.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IWebHostEnvironment, PizzaBox.Storing.PizzaBoxContext)N
+D/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Startup.cs( (("0*¯
+0N
+D/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Startup.cs*
+ *(Ñ
+Î
+N
+D/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Startup.cs*
+ *(
+
+%0bool"vMicrosoft.Extensions.Hosting.HostEnvironmentEnvExtensions.IsDevelopment(Microsoft.Extensions.Hosting.IHostEnvironment)*=";
+9Microsoft.Extensions.Hosting.HostEnvironmentEnvExtensions*9
+7
+env0Microsoft.AspNetCore.Hosting.IWebHostEnvironment*
+1
+2*ð
+1N
+D/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Startup.cs, ,('•
+’
+N
+D/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Startup.cs, ,('6
+%10Microsoft.AspNetCore.Builder.IApplicationBuilder"‰Microsoft.AspNetCore.Builder.DeveloperExceptionPageExtensions.UseDeveloperExceptionPage(Microsoft.AspNetCore.Builder.IApplicationBuilder)*A"?
+=Microsoft.AspNetCore.Builder.DeveloperExceptionPageExtensions*9
+7
+app0Microsoft.AspNetCore.Builder.IApplicationBuilder*
+3*æ
+2N
+D/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Startup.cs0 2(œ
+™
+N
+D/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Startup.cs0 0(.6
+%20Microsoft.AspNetCore.Builder.IApplicationBuilder"…Microsoft.AspNetCore.Builder.ExceptionHandlerExtensions.UseExceptionHandler(Microsoft.AspNetCore.Builder.IApplicationBuilder, string)*;"9
+7Microsoft.AspNetCore.Builder.ExceptionHandlerExtensions*9
+7
+app0Microsoft.AspNetCore.Builder.IApplicationBuilder*
+/Home/Errorì
+é
+N
+D/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Startup.cs2 2(6
+%30Microsoft.AspNetCore.Builder.IApplicationBuilder"lMicrosoft.AspNetCore.Builder.HstsBuilderExtensions.UseHsts(Microsoft.AspNetCore.Builder.IApplicationBuilder)*6"4
+2Microsoft.AspNetCore.Builder.HstsBuilderExtensions*9
+7
+app0Microsoft.AspNetCore.Builder.IApplicationBuilder*
+3*ñ
+3N
+D/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Startup.cs4 >(†
+ƒ
+N
+D/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Startup.cs4 4(6
+%40Microsoft.AspNetCore.Builder.IApplicationBuilder"Microsoft.AspNetCore.Builder.HttpsPolicyBuilderExtensions.UseHttpsRedirection(Microsoft.AspNetCore.Builder.IApplicationBuilder)*=";
+9Microsoft.AspNetCore.Builder.HttpsPolicyBuilderExtensions*9
+7
+app0Microsoft.AspNetCore.Builder.IApplicationBuilderñ
+î
+N
+D/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Startup.cs5 5(6
+%50Microsoft.AspNetCore.Builder.IApplicationBuilder"rMicrosoft.AspNetCore.Builder.StaticFileExtensions.UseStaticFiles(Microsoft.AspNetCore.Builder.IApplicationBuilder)*5"3
+1Microsoft.AspNetCore.Builder.StaticFileExtensions*9
+7
+app0Microsoft.AspNetCore.Builder.IApplicationBuilderœ
+™
+N
+D/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Startup.cs7 7(6
+%60Microsoft.AspNetCore.Builder.IApplicationBuilder"…Microsoft.AspNetCore.Builder.EndpointRoutingApplicationBuilderExtensions.UseRouting(Microsoft.AspNetCore.Builder.IApplicationBuilder)*L"J
+HMicrosoft.AspNetCore.Builder.EndpointRoutingApplicationBuilderExtensions*9
+7
+app0Microsoft.AspNetCore.Builder.IApplicationBuilderŽ
+‹
+N
+D/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Startup.cs9 9(6
+%70Microsoft.AspNetCore.Builder.IApplicationBuilder"Microsoft.AspNetCore.Builder.AuthorizationAppBuilderExtensions.UseAuthorization(Microsoft.AspNetCore.Builder.IApplicationBuilder)*B"@
+>Microsoft.AspNetCore.Builder.AuthorizationAppBuilderExtensions*9
+7
+app0Microsoft.AspNetCore.Builder.IApplicationBuilderé
+æ
+N
+D/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Startup.cs; >(6
+%80Microsoft.AspNetCore.Builder.IApplicationBuilder"ÊMicrosoft.AspNetCore.Builder.EndpointRoutingApplicationBuilderExtensions.UseEndpoints(Microsoft.AspNetCore.Builder.IApplicationBuilder, System.Action<Microsoft.AspNetCore.Routing.IEndpointRouteBuilder>)*L"J
+HMicrosoft.AspNetCore.Builder.EndpointRoutingApplicationBuilderExtensions*9
+7
+app0Microsoft.AspNetCore.Builder.IApplicationBuilder*
+""*
+4*º
+4N
+D/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Startup.cs? ?("e
+N
+D/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Startup.cs? ?(
+implicit return:7
+app0Microsoft.AspNetCore.Builder.IApplicationBuilder:7
+env0Microsoft.AspNetCore.Hosting.IWebHostEnvironment:+
+context PizzaBox.Storing.PizzaBoxContextB
+_PizzaBox.Client.Startup

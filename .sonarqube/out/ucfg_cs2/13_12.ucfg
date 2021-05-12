@@ -1,0 +1,89 @@
+
+aPizzaBox.Client.Controllers.CustomerController.Customer(PizzaBox.Client.Models.CustomerViewModel)e
+[/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Controllers/CustomerController.cs ("4*‹
+0e
+[/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Controllers/CustomerController.cs
+ (‘
+Ž
+e
+[/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Controllers/CustomerController.cs
+ (@
+%0:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"6Microsoft.AspNetCore.Mvc.ControllerBase.ModelState.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase‚
+ÿ
+e
+[/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Controllers/CustomerController.cs
+ (
+
+%1bool"FMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.IsValid.get*B
+@
+%0:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*
+1
+2*Ñ
+1e
+[/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Controllers/CustomerController.cs ($ë
+è
+e
+[/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Controllers/CustomerController.cs ($
+%2string"9PizzaBox.Client.Models.CustomerViewModel.SelectedName.get*6
+4
+customer(PizzaBox.Client.Models.CustomerViewModel"w
+e
+[/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Controllers/CustomerController.cs (%
+
+%2string*ä
+2e
+[/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Controllers/CustomerController.cs ("x
+e
+[/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Controllers/CustomerController.cs (
+Enter Name:*è
+3e
+[/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Controllers/CustomerController.cs ("|
+e
+[/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Controllers/CustomerController.cs (
+implicit return*›
+4e
+[/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Controllers/CustomerController.cs6 (6ò
+ï
+e
+[/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Controllers/CustomerController.cs (x
+4
+customer(PizzaBox.Client.Models.CustomerViewModel"@
+<Customers>k__BackingField"System.Collections.Generic.List<T>"__entrypointá
+Þ
+e
+[/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Controllers/CustomerController.cs (g
+4
+customer(PizzaBox.Client.Models.CustomerViewModel"/
+	Customers"System.Collections.Generic.List<T>"__entrypointÙ
+Ö
+e
+[/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Controllers/CustomerController.cs (_
+4
+customer(PizzaBox.Client.Models.CustomerViewModel"'
+<SelectedName>k__BackingFieldstring"__entrypointÈ
+Å
+e
+[/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Controllers/CustomerController.cs (N
+4
+customer(PizzaBox.Client.Models.CustomerViewModel"
+SelectedNamestring"__entrypointÜ
+Ù
+e
+[/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Controllers/CustomerController.cs (b
+4
+customer(PizzaBox.Client.Models.CustomerViewModel"*
+ <SelectedAddress>k__BackingFieldstring"__entrypointË
+È
+e
+[/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Controllers/CustomerController.cs (Q
+4
+customer(PizzaBox.Client.Models.CustomerViewModel"
+SelectedAddressstring"__entrypoint}
+{
+e
+[/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Controllers/CustomerController.cs (
+%3"__entrypoint*
+0:4
+customer(PizzaBox.Client.Models.CustomerViewModelB20
+.PizzaBox.Client.Controllers.CustomerController

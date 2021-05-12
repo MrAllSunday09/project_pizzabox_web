@@ -1,0 +1,138 @@
+
+gPizzaBox.Storing.Migrations.addingprice.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)p
+d/home/drayh/revature/project_pizzabox_web/PizzaBox.Storing/Migrations/20210510020827_adding price.cs¥  ¥($"0*š3
+0p
+d/home/drayh/revature/project_pizzabox_web/PizzaBox.Storing/Migrations/20210510020827_adding price.cs§ æ( ïì
+p
+d/home/drayh/revature/project_pizzabox_web/PizzaBox.Storing/Migrations/20210510020827_adding price.cs§ ©( _
+%0YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"`Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder.DropForeignKey(string, string, string)*O
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*(&
+$FK_Orders_Customers_CustomerEntityId*
+
+Orders*
+""2&DropForeignKey(string, string, string)éæ
+p
+d/home/drayh/revature/project_pizzabox_web/PizzaBox.Storing/Migrations/20210510020827_adding price.cs« ­( _
+%1YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"`Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder.DropForeignKey(string, string, string)*O
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*" 
+FK_Orders_Stores_StoreEntityId*
+
+Orders*
+""2&DropForeignKey(string, string, string)ÛØ
+p
+d/home/drayh/revature/project_pizzabox_web/PizzaBox.Storing/Migrations/20210510020827_adding price.cs¯ ±( _
+%2YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"[Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder.DropIndex(string, string, string)*O
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*
+IX_Orders_CustomerEntityId*
+
+Orders*
+""2!DropIndex(string, string, string)ØÕ
+p
+d/home/drayh/revature/project_pizzabox_web/PizzaBox.Storing/Migrations/20210510020827_adding price.cs³ µ( _
+%3YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"[Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder.DropIndex(string, string, string)*O
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*
+IX_Orders_StoreEntityId*
+
+Orders*
+""2!DropIndex(string, string, string)àÝ
+p
+d/home/drayh/revature/project_pizzabox_web/PizzaBox.Storing/Migrations/20210510020827_adding price.cs· º(_
+%4YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"dMicrosoft.EntityFrameworkCore.Migrations.MigrationBuilder.DeleteData(string, string, object, string)*O
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*	
+Sizes*
+
+EntityId*2*
+""2*DeleteData(string, string, object, string)ÊÇ
+p
+d/home/drayh/revature/project_pizzabox_web/PizzaBox.Storing/Migrations/20210510020827_adding price.cs¼ ¾("_
+%5YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"\Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder.DropColumn(string, string, string)*O
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*	
+Price*
+
+Toppings*
+""2"DropColumn(string, string, string)ÇÄ
+p
+d/home/drayh/revature/project_pizzabox_web/PizzaBox.Storing/Migrations/20210510020827_adding price.csÀ Â(_
+%6YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"\Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder.DropColumn(string, string, string)*O
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*	
+Price*	
+Sizes*
+""2"DropColumn(string, string, string)ÓÐ
+p
+d/home/drayh/revature/project_pizzabox_web/PizzaBox.Storing/Migrations/20210510020827_adding price.csÄ Æ( _
+%7YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"\Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder.DropColumn(string, string, string)*O
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*
+CustomerEntityId*
+
+Orders*
+""2"DropColumn(string, string, string)ÐÍ
+p
+d/home/drayh/revature/project_pizzabox_web/PizzaBox.Storing/Migrations/20210510020827_adding price.csÈ Ê( _
+%8YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"\Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder.DropColumn(string, string, string)*O
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*
+StoreEntityId*
+
+Orders*
+""2"DropColumn(string, string, string)•’
+p
+d/home/drayh/revature/project_pizzabox_web/PizzaBox.Storing/Migrations/20210510020827_adding price.csÌ Ñ(_
+%9YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"tMicrosoft.EntityFrameworkCore.Migrations.MigrationBuilder.UpdateData(string, string, object, string, object, string)*O
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*	
+Sizes*
+
+EntityId*2*
+Name*	
+Small*
+""2:UpdateData(string, string, object, string, object, string)—”
+p
+d/home/drayh/revature/project_pizzabox_web/PizzaBox.Storing/Migrations/20210510020827_adding price.csÓ Ø( `
+%10YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"tMicrosoft.EntityFrameworkCore.Migrations.MigrationBuilder.UpdateData(string, string, object, string, object, string)*O
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*	
+Sizes*
+
+EntityId*2*
+Name*
+
+Medium*
+""2:UpdateData(string, string, object, string, object, string)–“
+p
+d/home/drayh/revature/project_pizzabox_web/PizzaBox.Storing/Migrations/20210510020827_adding price.csÚ ß(`
+%11YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"tMicrosoft.EntityFrameworkCore.Migrations.MigrationBuilder.UpdateData(string, string, object, string, object, string)*O
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*	
+Sizes*
+
+EntityId*2*
+Name*	
+Large*
+""2:UpdateData(string, string, object, string, object, string)˜•
+p
+d/home/drayh/revature/project_pizzabox_web/PizzaBox.Storing/Migrations/20210510020827_adding price.csá æ(!`
+%12YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"tMicrosoft.EntityFrameworkCore.Migrations.MigrationBuilder.UpdateData(string, string, object, string, object, string)*O
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*	
+Sizes*
+
+EntityId*2*
+Name*	
+X-Large*
+""2:UpdateData(string, string, object, string, object, string)*
+1*ÿ
+1p
+d/home/drayh/revature/project_pizzabox_web/PizzaBox.Storing/Migrations/20210510020827_adding price.csç	 ç(	"‡
+p
+d/home/drayh/revature/project_pizzabox_web/PizzaBox.Storing/Migrations/20210510020827_adding price.csç ç(	
+implicit return:M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilderB+)
+'PizzaBox.Storing.Migrations.addingprice
