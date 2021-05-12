@@ -1,0 +1,7 @@
+´
+&PizzaBox.Storing.Repositories.SizeRepoobject
+*SizeRepo(PizzaBox.Storing.PizzaBoxContext)QPizzaBox.Storing.Repositories.SizeRepo.SizeRepo(PizzaBox.Storing.PizzaBoxContext)—
+6Create(System.Func<PizzaBox.Domain.Models.Size, bool>)]PizzaBox.Storing.Repositories.SizeRepo.Create(System.Func<PizzaBox.Domain.Models.Size, bool>)m
+!Read(PizzaBox.Domain.Models.Size)HPizzaBox.Storing.Repositories.SizeRepo.Read(PizzaBox.Domain.Models.Size);
+Update()/PizzaBox.Storing.Repositories.SizeRepo.Update();
+Delete()/PizzaBox.Storing.Repositories.SizeRepo.Delete()

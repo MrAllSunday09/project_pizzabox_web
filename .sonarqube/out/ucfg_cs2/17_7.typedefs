@@ -1,0 +1,13 @@
+ã
+PizzaBox.Domain.Models.Size PizzaBox.Domain.Abstracts.Entityobject4
+
+ToString()&PizzaBox.Domain.Models.Size.ToString(),
+Size()"PizzaBox.Domain.Models.Size.Size()0
+Name.get$PizzaBox.Domain.Models.Size.Name.get0
+Name.set$PizzaBox.Domain.Models.Size.Name.set2
+	Price.get%PizzaBox.Domain.Models.Size.Price.get2
+	Price.set%PizzaBox.Domain.Models.Size.Price.set4
+
+Pizzas.get&PizzaBox.Domain.Models.Size.Pizzas.get4
+
+Pizzas.set&PizzaBox.Domain.Models.Size.Pizzas.set

@@ -1,0 +1,26 @@
+á	
+ PizzaBox.Storing.PizzaBoxContext'Microsoft.EntityFrameworkCore.DbContextobject£
+?PizzaBoxContext(Microsoft.EntityFrameworkCore.DbContextOptions)`PizzaBox.Storing.PizzaBoxContext.PizzaBoxContext(Microsoft.EntityFrameworkCore.DbContextOptions)›
+;OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)\PizzaBox.Storing.PizzaBoxContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)?
+Customers.get.PizzaBox.Storing.PizzaBoxContext.Customers.get?
+Customers.set.PizzaBox.Storing.PizzaBoxContext.Customers.set9
+
+Stores.get+PizzaBox.Storing.PizzaBoxContext.Stores.get9
+
+Stores.set+PizzaBox.Storing.PizzaBoxContext.Stores.set9
+
+Crusts.get+PizzaBox.Storing.PizzaBoxContext.Crusts.get9
+
+Crusts.set+PizzaBox.Storing.PizzaBoxContext.Crusts.set7
+	Sizes.get*PizzaBox.Storing.PizzaBoxContext.Sizes.get7
+	Sizes.set*PizzaBox.Storing.PizzaBoxContext.Sizes.set=
+Toppings.get-PizzaBox.Storing.PizzaBoxContext.Toppings.get=
+Toppings.set-PizzaBox.Storing.PizzaBoxContext.Toppings.set9
+
+Orders.get+PizzaBox.Storing.PizzaBoxContext.Orders.get9
+
+Orders.set+PizzaBox.Storing.PizzaBoxContext.Orders.set9
+
+Pizzas.get+PizzaBox.Storing.PizzaBoxContext.Pizzas.get9
+
+Pizzas.set+PizzaBox.Storing.PizzaBoxContext.Pizzas.set

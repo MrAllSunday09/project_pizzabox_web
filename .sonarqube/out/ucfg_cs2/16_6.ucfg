@@ -1,0 +1,26 @@
+
+7PizzaBox.Client.Models.ErrorViewModel.ShowRequestId.get\
+R/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Models/ErrorViewModel.cs	 	("0*ã
+0\
+R/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Models/ErrorViewModel.cs	! 	(@Ï
+Ì
+\
+R/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Models/ErrorViewModel.cs	7 	(@
+%0string"3PizzaBox.Client.Models.ErrorViewModel.RequestId.get*)'
+%PizzaBox.Client.Models.ErrorViewModel¨
+¥
+\
+R/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Models/ErrorViewModel.cs	" 	(A
+
+%1bool"string.IsNullOrEmpty(string?)*
+"
+string*
+
+%0string*
+1*Ö
+1\
+R/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Models/ErrorViewModel.cs	B 	(B"s
+\
+R/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Models/ErrorViewModel.cs	A 	(B
+implicit returnB)'
+%PizzaBox.Client.Models.ErrorViewModel

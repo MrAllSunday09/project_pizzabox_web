@@ -1,0 +1,11 @@
+„
+PizzaBox.Domain.Models.Crust PizzaBox.Domain.Abstracts.Entityobject5
+
+ToString()'PizzaBox.Domain.Models.Crust.ToString()/
+Crust()$PizzaBox.Domain.Models.Crust.Crust()1
+Name.get%PizzaBox.Domain.Models.Crust.Name.get1
+Name.set%PizzaBox.Domain.Models.Crust.Name.set5
+
+Pizzas.get'PizzaBox.Domain.Models.Crust.Pizzas.get5
+
+Pizzas.set'PizzaBox.Domain.Models.Crust.Pizzas.set

@@ -1,0 +1,12 @@
+V
+M/home/drayh/revature/project_pizzabox_web/PizzaBox.Domain/Abstracts/Entity.csutf-8\
+S/home/drayh/revature/project_pizzabox_web/PizzaBox.Domain/Interfaces/IRepository.csutf-8R
+I/home/drayh/revature/project_pizzabox_web/PizzaBox.Domain/Models/Crust.csutf-8U
+L/home/drayh/revature/project_pizzabox_web/PizzaBox.Domain/Models/Customer.csutf-8R
+I/home/drayh/revature/project_pizzabox_web/PizzaBox.Domain/Models/Order.csutf-8R
+I/home/drayh/revature/project_pizzabox_web/PizzaBox.Domain/Models/Pizza.csutf-8Q
+H/home/drayh/revature/project_pizzabox_web/PizzaBox.Domain/Models/Size.csutf-8R
+I/home/drayh/revature/project_pizzabox_web/PizzaBox.Domain/Models/Store.csutf-8T
+K/home/drayh/revature/project_pizzabox_web/PizzaBox.Domain/Models/Topping.csutf-8„
+y/home/drayh/revature/project_pizzabox_web/PizzaBox.Domain/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.csutf-8v
+k/home/drayh/revature/project_pizzabox_web/PizzaBox.Domain/obj/Debug/net5.0/-PizzaBox.Domain.AssemblyInfo.csutf-8

@@ -1,0 +1,8 @@
+«
+PizzaBox.Domain.Models.Customer PizzaBox.Domain.Abstracts.Entityobject8
+
+ToString()*PizzaBox.Domain.Models.Customer.ToString()8
+
+Customer()*PizzaBox.Domain.Models.Customer.Customer()4
+Name.get(PizzaBox.Domain.Models.Customer.Name.get4
+Name.set(PizzaBox.Domain.Models.Customer.Name.set

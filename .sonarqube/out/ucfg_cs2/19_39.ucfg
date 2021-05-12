@@ -1,0 +1,98 @@
+
+LPizzaBox.Client.Models.OrderViewModel.Construct(PizzaBox.Storing.UnitOfWork)\
+R/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Models/OrderViewModel.cs ("0*û
+0\
+R/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Models/OrderViewModel.cs  (SÂ
+‚
+\
+R/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Models/OrderViewModel.cs ( -
+%0'PizzaBox.Storing.Repositories.CrustRepo"&PizzaBox.Storing.UnitOfWork.Crusts.get*+
+)
+
+unitOfWorkPizzaBox.Storing.UnitOfWork¨
+©
+\
+R/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Models/OrderViewModel.cs (P/
+%1)System.Collections.Generic.IEnumerable<T>"_PizzaBox.Storing.Repositories.CrustRepo.Create(System.Func<PizzaBox.Domain.Models.Crust, bool>)*/
+-
+%0'PizzaBox.Storing.Repositories.CrustRepo*
+""≥
+∞
+\
+R/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Models/OrderViewModel.cs (Y(
+%2"System.Collections.Generic.List<T>"WSystem.Linq.Enumerable.ToList<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*1
+/
+%1)System.Collections.Generic.IEnumerable<T>î
+ë
+\
+R/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Models/OrderViewModel.cs (Y(
+%3"System.Collections.Generic.List<T>"0PizzaBox.Client.Models.OrderViewModel.Crusts.set*)'
+%PizzaBox.Client.Models.OrderViewModel**
+(
+%2"System.Collections.Generic.List<T>„
+‡
+\
+R/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Models/OrderViewModel.cs (,
+%4&PizzaBox.Storing.Repositories.SizeRepo"%PizzaBox.Storing.UnitOfWork.Sizes.get*+
+)
+
+unitOfWorkPizzaBox.Storing.UnitOfWork©
+¶
+\
+R/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Models/OrderViewModel.cs (N/
+%5)System.Collections.Generic.IEnumerable<T>"]PizzaBox.Storing.Repositories.SizeRepo.Create(System.Func<PizzaBox.Domain.Models.Size, bool>)*.
+,
+%4&PizzaBox.Storing.Repositories.SizeRepo*
+""≥
+∞
+\
+R/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Models/OrderViewModel.cs (W(
+%6"System.Collections.Generic.List<T>"WSystem.Linq.Enumerable.ToList<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*1
+/
+%5)System.Collections.Generic.IEnumerable<T>ì
+ê
+\
+R/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Models/OrderViewModel.cs (W(
+%7"System.Collections.Generic.List<T>"/PizzaBox.Client.Models.OrderViewModel.Sizes.set*)'
+%PizzaBox.Client.Models.OrderViewModel**
+(
+%6"System.Collections.Generic.List<T>Í
+Á
+\
+R/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Models/OrderViewModel.cs   ($0
+%8*PizzaBox.Storing.Repositories.ToppingsRepo"(PizzaBox.Storing.UnitOfWork.Toppings.get*+
+)
+
+unitOfWorkPizzaBox.Storing.UnitOfWork¥
+±
+\
+R/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Models/OrderViewModel.cs   (T/
+%9)System.Collections.Generic.IEnumerable<T>"dPizzaBox.Storing.Repositories.ToppingsRepo.Create(System.Func<PizzaBox.Domain.Models.Topping, bool>)*2
+0
+%8*PizzaBox.Storing.Repositories.ToppingsRepo*
+""¥
+±
+\
+R/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Models/OrderViewModel.cs   (])
+%10"System.Collections.Generic.List<T>"WSystem.Linq.Enumerable.ToList<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*1
+/
+%9)System.Collections.Generic.IEnumerable<T>ò
+ï
+\
+R/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Models/OrderViewModel.cs   (])
+%11"System.Collections.Generic.List<T>"2PizzaBox.Client.Models.OrderViewModel.Toppings.set*)'
+%PizzaBox.Client.Models.OrderViewModel*+
+)
+%10"System.Collections.Generic.List<T>*
+1*÷
+1\
+R/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Models/OrderViewModel.cs! !("s
+\
+R/home/drayh/revature/project_pizzabox_web/PizzaBox.Client/Models/OrderViewModel.cs! !(
+implicit return:)
+
+unitOfWorkPizzaBox.Storing.UnitOfWorkB)'
+%PizzaBox.Client.Models.OrderViewModel

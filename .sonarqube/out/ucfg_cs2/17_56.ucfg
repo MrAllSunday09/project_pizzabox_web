@@ -1,0 +1,28 @@
+
+&PizzaBox.Domain.Models.Order.Money.getS
+I/home/drayh/revature/project_pizzabox_web/PizzaBox.Domain/Models/Order.cs (	"0*¼
+0S
+I/home/drayh/revature/project_pizzabox_web/PizzaBox.Domain/Models/Order.cs ((Í
+Ê
+S
+I/home/drayh/revature/project_pizzabox_web/PizzaBox.Domain/Models/Order.cs ((
+%0"System.Collections.Generic.List<T>"'PizzaBox.Domain.Models.Order.Pizzas.get* 
+PizzaBox.Domain.Models.Orderª
+§
+S
+I/home/drayh/revature/project_pizzabox_web/PizzaBox.Domain/Models/Order.cs ()
+%1double"rSystem.Linq.Enumerable.Sum<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, double>)*"
+System.Linq.Enumerable**
+(
+%0"System.Collections.Generic.List<T>*
+"""e
+S
+I/home/drayh/revature/project_pizzabox_web/PizzaBox.Domain/Models/Order.cs (*
+
+%1double*Ä
+1S
+I/home/drayh/revature/project_pizzabox_web/PizzaBox.Domain/Models/Order.cs ("j
+S
+I/home/drayh/revature/project_pizzabox_web/PizzaBox.Domain/Models/Order.cs (
+implicit returnB 
+PizzaBox.Domain.Models.Order
