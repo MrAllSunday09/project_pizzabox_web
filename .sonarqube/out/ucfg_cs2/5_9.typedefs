@@ -1,0 +1,7 @@
+Á
+'PizzaBox.Storing.Repositories.PizzaRepoobject‚
++PizzaRepo(PizzaBox.Storing.PizzaBoxContext)SPizzaBox.Storing.Repositories.PizzaRepo.PizzaRepo(PizzaBox.Storing.PizzaBoxContext)<
+Delete()0PizzaBox.Storing.Repositories.PizzaRepo.Delete()p
+"Read(PizzaBox.Domain.Models.Pizza)JPizzaBox.Storing.Repositories.PizzaRepo.Read(PizzaBox.Domain.Models.Pizza)š
+7Create(System.Func<PizzaBox.Domain.Models.Pizza, bool>)_PizzaBox.Storing.Repositories.PizzaRepo.Create(System.Func<PizzaBox.Domain.Models.Pizza, bool>)<
+Update()0PizzaBox.Storing.Repositories.PizzaRepo.Update()

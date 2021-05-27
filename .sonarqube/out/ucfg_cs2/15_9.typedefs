@@ -1,0 +1,7 @@
+Á
+'PizzaBox.Storing.Repositories.OrderRepoobject‚
++OrderRepo(PizzaBox.Storing.PizzaBoxContext)SPizzaBox.Storing.Repositories.OrderRepo.OrderRepo(PizzaBox.Storing.PizzaBoxContext)š
+7Create(System.Func<PizzaBox.Domain.Models.Order, bool>)_PizzaBox.Storing.Repositories.OrderRepo.Create(System.Func<PizzaBox.Domain.Models.Order, bool>)p
+"Read(PizzaBox.Domain.Models.Order)JPizzaBox.Storing.Repositories.OrderRepo.Read(PizzaBox.Domain.Models.Order)<
+Update()0PizzaBox.Storing.Repositories.OrderRepo.Update()<
+Delete()0PizzaBox.Storing.Repositories.OrderRepo.Delete()

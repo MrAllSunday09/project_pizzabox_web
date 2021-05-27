@@ -1,0 +1,34 @@
+
+JPizzaBox.Storing.Repositories.OrderRepo.Read(PizzaBox.Domain.Models.Order)^
+T/home/drayh/revature/project_pizzabox_web/PizzaBox.Storing/Repositories/OrderRepo.cs ("0*†
+0^
+T/home/drayh/revature/project_pizzabox_web/PizzaBox.Storing/Repositories/OrderRepo.cs (î
+ë
+^
+T/home/drayh/revature/project_pizzabox_web/PizzaBox.Storing/Repositories/OrderRepo.cs (&
+%0 PizzaBox.Storing.PizzaBoxContext"__id*[*Y)
+'PizzaBox.Storing.Repositories.OrderRepo",
+_context PizzaBox.Storing.PizzaBoxContextî
+ë
+^
+T/home/drayh/revature/project_pizzabox_web/PizzaBox.Storing/Repositories/OrderRepo.cs (2
+%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>"+PizzaBox.Storing.PizzaBoxContext.Orders.get*(
+&
+%0 PizzaBox.Storing.PizzaBoxContextÔÑ
+^
+T/home/drayh/revature/project_pizzabox_web/PizzaBox.Storing/Repositories/OrderRepo.cs ( G
+%2AMicrosoft.EntityFrameworkCore.ChangeTracking.EntityEntry<TEntity>"9Microsoft.EntityFrameworkCore.DbSet<TEntity>.Add(TEntity)*4
+2
+%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>*'
+%
+entryPizzaBox.Domain.Models.Order2Add(TEntity)"h
+^
+T/home/drayh/revature/project_pizzabox_web/PizzaBox.Storing/Repositories/OrderRepo.cs (
+""*Ú
+1^
+T/home/drayh/revature/project_pizzabox_web/PizzaBox.Storing/Repositories/OrderRepo.cs ("u
+^
+T/home/drayh/revature/project_pizzabox_web/PizzaBox.Storing/Repositories/OrderRepo.cs (
+implicit return:%
+entryPizzaBox.Domain.Models.OrderB+)
+'PizzaBox.Storing.Repositories.OrderRepo

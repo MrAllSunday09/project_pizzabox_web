@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
+  <ProjectName>PizzaBox.Testing</ProjectName>
+  <ProjectLanguage>C#</ProjectLanguage>
+  <ProjectType>Test</ProjectType>
+  <ProjectGuid>7bd79310-8fbe-4992-97e4-8600ad753027</ProjectGuid>
+  <FullPath>/home/drayh/revature/project_pizzabox_web/PizzaBox.Testing/PizzaBox.Testing.csproj</FullPath>
+  <IsExcluded>false</IsExcluded>
+  <AnalysisResults>
+    <AnalysisResult Id="FilesToAnalyze" Location="/home/drayh/revature/project_pizzabox_web/.sonarqube/conf/10/FilesToAnalyze.txt" />
+  </AnalysisResults>
+  <AnalysisSettings>
+    <Property Name="sonar.cs.roslyn.reportFilePaths">/home/drayh/revature/project_pizzabox_web/PizzaBox.Testing/bin/Debug/net5.0/PizzaBox.Testing.dll.RoslynCA.json|/home/drayh/revature/project_pizzabox_web/PizzaBox.Testing/bin/Debug/net5.0/PizzaBox.Testing.dll.RoslynCA.json</Property>
+    <Property Name="sonar.cs.analyzer.projectOutPaths">/home/drayh/revature/project_pizzabox_web/.sonarqube/out/10</Property>
+  </AnalysisSettings>
+  <Configuration>Debug</Configuration>
+  <Platform>AnyCPU</Platform>
+  <TargetFramework>net5.0</TargetFramework>
+</ProjectInfo>

@@ -1,0 +1,37 @@
+
+dPizzaBox.Storing.Repositories.ToppingsRepo.Create(System.Func<PizzaBox.Domain.Models.Topping, bool>)a
+W/home/drayh/revature/project_pizzabox_web/PizzaBox.Storing/Repositories/ToppingsRepo.cs  (&"0*ñ
+0a
+W/home/drayh/revature/project_pizzabox_web/PizzaBox.Storing/Repositories/ToppingsRepo.cs (+ô
+ñ
+a
+W/home/drayh/revature/project_pizzabox_web/PizzaBox.Storing/Repositories/ToppingsRepo.cs (&
+%0 PizzaBox.Storing.PizzaBoxContext"__id*^*\,
+*PizzaBox.Storing.Repositories.ToppingsRepo",
+_context PizzaBox.Storing.PizzaBoxContextó
+ð
+a
+W/home/drayh/revature/project_pizzabox_web/PizzaBox.Storing/Repositories/ToppingsRepo.cs (2
+%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>"-PizzaBox.Storing.PizzaBoxContext.Toppings.get*(
+&
+%0 PizzaBox.Storing.PizzaBoxContext‚
+ÿ
+a
+W/home/drayh/revature/project_pizzabox_web/PizzaBox.Storing/Repositories/ToppingsRepo.cs (,/
+%2)System.Collections.Generic.IEnumerable<T>"rSystem.Linq.Enumerable.Where<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*4
+2
+%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>*#
+!
+filterSystem.Func<T, TResult>"–
+a
+W/home/drayh/revature/project_pizzabox_web/PizzaBox.Storing/Repositories/ToppingsRepo.cs (-1
+/
+%2)System.Collections.Generic.IEnumerable<T>*à
+1a
+W/home/drayh/revature/project_pizzabox_web/PizzaBox.Storing/Repositories/ToppingsRepo.cs ("x
+a
+W/home/drayh/revature/project_pizzabox_web/PizzaBox.Storing/Repositories/ToppingsRepo.cs (
+implicit return:!
+filterSystem.Func<T, TResult>B.,
+*PizzaBox.Storing.Repositories.ToppingsRepo

@@ -1,0 +1,7 @@
+å
+*PizzaBox.Storing.Repositories.CustomerRepoobject‹
+.CustomerRepo(PizzaBox.Storing.PizzaBoxContext)YPizzaBox.Storing.Repositories.CustomerRepo.CustomerRepo(PizzaBox.Storing.PizzaBoxContext)£
+:Create(System.Func<PizzaBox.Domain.Models.Customer, bool>)ePizzaBox.Storing.Repositories.CustomerRepo.Create(System.Func<PizzaBox.Domain.Models.Customer, bool>)y
+%Read(PizzaBox.Domain.Models.Customer)PPizzaBox.Storing.Repositories.CustomerRepo.Read(PizzaBox.Domain.Models.Customer)?
+Update()3PizzaBox.Storing.Repositories.CustomerRepo.Update()?
+Delete()3PizzaBox.Storing.Repositories.CustomerRepo.Delete()

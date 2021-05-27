@@ -1,0 +1,19 @@
+µ
+PizzaBox.Domain.Models.Pizza PizzaBox.Domain.Abstracts.Entityobject/
+Pizza()$PizzaBox.Domain.Models.Pizza.Pizza()3
+	Crust.get&PizzaBox.Domain.Models.Pizza.Crust.get3
+	Crust.set&PizzaBox.Domain.Models.Pizza.Crust.setC
+CrustEntityId.get.PizzaBox.Domain.Models.Pizza.CrustEntityId.getC
+CrustEntityId.set.PizzaBox.Domain.Models.Pizza.CrustEntityId.set1
+Size.get%PizzaBox.Domain.Models.Pizza.Size.get1
+Size.set%PizzaBox.Domain.Models.Pizza.Size.setA
+SizeEntityId.get-PizzaBox.Domain.Models.Pizza.SizeEntityId.getA
+SizeEntityId.set-PizzaBox.Domain.Models.Pizza.SizeEntityId.set3
+	Order.get&PizzaBox.Domain.Models.Pizza.Order.get3
+	Order.set&PizzaBox.Domain.Models.Pizza.Order.setC
+OrderEntityId.get.PizzaBox.Domain.Models.Pizza.OrderEntityId.getC
+OrderEntityId.set.PizzaBox.Domain.Models.Pizza.OrderEntityId.set9
+Toppings.get)PizzaBox.Domain.Models.Pizza.Toppings.get9
+Toppings.set)PizzaBox.Domain.Models.Pizza.Toppings.set7
+Payment.get(PizzaBox.Domain.Models.Pizza.Payment.get7
+Payment.set(PizzaBox.Domain.Models.Pizza.Payment.set

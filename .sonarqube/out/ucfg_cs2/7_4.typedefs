@@ -1,0 +1,12 @@
+‚
+(PizzaBox.Client.Models.CustomerViewModelobjecty
+&Construct(PizzaBox.Storing.UnitOfWork)OPizzaBox.Client.Models.CustomerViewModel.Construct(PizzaBox.Storing.UnitOfWork)S
+CustomerViewModel()<PizzaBox.Client.Models.CustomerViewModel.CustomerViewModel()G
+Customers.get6PizzaBox.Client.Models.CustomerViewModel.Customers.getG
+Customers.set6PizzaBox.Client.Models.CustomerViewModel.Customers.setM
+SelectedName.get9PizzaBox.Client.Models.CustomerViewModel.SelectedName.getM
+SelectedName.set9PizzaBox.Client.Models.CustomerViewModel.SelectedName.setS
+SelectedAddress.get<PizzaBox.Client.Models.CustomerViewModel.SelectedAddress.getS
+SelectedAddress.set<PizzaBox.Client.Models.CustomerViewModel.SelectedAddress.setQ
+SelectedNumber.get;PizzaBox.Client.Models.CustomerViewModel.SelectedNumber.getQ
+SelectedNumber.set;PizzaBox.Client.Models.CustomerViewModel.SelectedNumber.set

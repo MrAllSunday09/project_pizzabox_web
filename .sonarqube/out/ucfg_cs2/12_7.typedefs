@@ -1,0 +1,7 @@
+Á
+'PizzaBox.Storing.Repositories.CrustRepoobject‚
++CrustRepo(PizzaBox.Storing.PizzaBoxContext)SPizzaBox.Storing.Repositories.CrustRepo.CrustRepo(PizzaBox.Storing.PizzaBoxContext)š
+7Create(System.Func<PizzaBox.Domain.Models.Crust, bool>)_PizzaBox.Storing.Repositories.CrustRepo.Create(System.Func<PizzaBox.Domain.Models.Crust, bool>)p
+"Read(PizzaBox.Domain.Models.Crust)JPizzaBox.Storing.Repositories.CrustRepo.Read(PizzaBox.Domain.Models.Crust)<
+Update()0PizzaBox.Storing.Repositories.CrustRepo.Update()<
+Delete()0PizzaBox.Storing.Repositories.CrustRepo.Delete()

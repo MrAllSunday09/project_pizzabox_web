@@ -1,0 +1,7 @@
+¥
+_PizzaBox.Client.Startupobjectë
+:Startup(Microsoft.Extensions.Configuration.IConfiguration)S_PizzaBox.Client.Startup.Startup(Microsoft.Extensions.Configuration.IConfiguration)π
+NConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)g_PizzaBox.Client.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)Ω
+èConfigure(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IWebHostEnvironment, PizzaBox.Storing.PizzaBoxContext)®_PizzaBox.Client.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IWebHostEnvironment, PizzaBox.Storing.PizzaBoxContext)?
+Configuration.get*_PizzaBox.Client.Startup.Configuration.get?
+Configuration.set*_PizzaBox.Client.Startup.Configuration.set

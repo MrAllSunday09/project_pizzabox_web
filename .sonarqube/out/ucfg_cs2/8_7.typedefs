@@ -1,0 +1,13 @@
+±
+PizzaBox.Domain.Models.Order PizzaBox.Domain.Abstracts.Entityobject/
+Order()$PizzaBox.Domain.Models.Order.Order()5
+
+Pizzas.get'PizzaBox.Domain.Models.Order.Pizzas.get5
+
+Pizzas.set'PizzaBox.Domain.Models.Order.Pizzas.set9
+Customer.get)PizzaBox.Domain.Models.Order.Customer.get9
+Customer.set)PizzaBox.Domain.Models.Order.Customer.set3
+	Store.get&PizzaBox.Domain.Models.Order.Store.get3
+	Store.set&PizzaBox.Domain.Models.Order.Store.set3
+	Money.get&PizzaBox.Domain.Models.Order.Money.get3
+	Money.set&PizzaBox.Domain.Models.Order.Money.set

@@ -1,0 +1,6 @@
+Æ
++PizzaBox.Storing.Migrations.addingrelations2Microsoft.EntityFrameworkCore.Migrations.Migrationobjectª
+=Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)iPizzaBox.Storing.Migrations.addingrelations.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)®
+?Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)kPizzaBox.Storing.Migrations.addingrelations.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)¨
+<BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)hPizzaBox.Storing.Migrations.addingrelations.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)R
+addingrelations()=PizzaBox.Storing.Migrations.addingrelations.addingrelations()
